@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'next_page.dart';
 void main() {
   runApp(MyApp());
 }
@@ -101,17 +101,6 @@ class _MyAppExState extends State<MyAppEx> {
           });
         },
       ),
-    );
-  }
-}
-
-class NextPage extends StatelessWidget {
-  const NextPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
     );
   }
 }
